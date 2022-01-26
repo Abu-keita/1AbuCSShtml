@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+#suvey{
+    background-color: lightblue;
+ border: solid white ;
+ border-radius: 10px;
+ width: 900px;
+ height: 900px;
+margin: 0 auto;
+
+
+}
+#dog button{
+background-color: red;
+text-align: right;
+}
+#but{
+    background-color: red;
+    color:white;
+}
+button{
+    background-color: green;
+color: white;
+}
+body{
+    background-color:silver;
+}
+.abu{
+    border: solid lightgray;
+ width:800px;
+}

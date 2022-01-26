@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Forms Demo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+
+        <p><label for="username"><b>Enter a username:</b></label>
+            <input id="username" type="text" placeholder="Username" Name="Username">
+        </p>
+        <p>
+            <lable for="Password"><b>Enter Password:</b></lable>
+            <input type="Password" placeholder="Password" id="Password" Name="Password">
+        </p>
+        <p>
+            <label for="color"><b>Enter Color:</b></label>
+            <input type="color" id="color" Name="color">
+        </p>
+        <p>
+            <label for="Number"><b>Enter number:</b></label>
+            <input type="Number" placeholder="Enter a number" id="Number" Name="Number">
+        </p>
+        <p>
+            <button type="button">Summit</button>
+        </p>
+
+    </form>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q" id="">
+        <button>Summit</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" id="">
+        <button>summit</button>
+    </form>
+
+    <h2>more inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="Agree terms of services" id="">
+        <label for="I agree to everything">I agree to everything
+
+        </label>
+        <p>
+            <label for="xs">xm</label>
+            <input type="radio" name="size" id="XS" value="xs">
+            <label for="sm">sm</label>
+            <input type="radio" name="size" id="sm" value="sm">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <button>summit</button>
+    </form>
+    <label for="Please select an entree">Please select entree</label>
+    <select name="meal" id="meal">
+        <option value="fish">Fish</option>
+        <option value="veg">Vegetarian</option>
+        <option value="fish">stake</option>
+    </select>
+    <p>
+        <label for="cheese">amount of cheese</label>
+        <input type="range" name="" id="cheese" min="1" max="10">
+    </p>
+    <P>
+        <label for="any special text">Tell your story</label>
+    </P>
+    <textarea name="" id="request" cols="50" rows="10" placeholder="Type something"></textarea>
+    <p>
+        <button>summit</button>\
+
+    </p>
+    <h2>validations</h2>
+    <form action="/dummy">
+        <label for="first">Enter frist name</label>
+        <input type="text" name="Frist name" id="first" required>
+        <p>
+            <label for="username">username</label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="10" required>
+        </p>
+        <button>summit</button>
+
+    </form>
+
+</body>
+
+</html>

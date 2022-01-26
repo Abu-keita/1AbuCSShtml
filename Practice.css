@@ -1,0 +1,73 @@
+
+*{
+   background-color:cyan;
+}
+button {
+    font-size: 40px;
+}
+
+h1,h2{
+    color: darkblue;
+}
+
+body{
+    background-color: ;
+
+
+}
+#signup{
+    background-color: #1D4E89 ;
+    color: red;
+}
+#search{
+    background-color: white ;
+    color:red;
+
+}
+#log{
+    background-color:yellow;
+}
+span{
+    background-color: ;
+
+}
+.tag{
+    background-color: red;
+    color:white;
+}
+.post a {
+    color:black;
+}
+footer a {
+    color:brown ;
+}
+
+input + button {
+    background-color: pink;
+}
+h2 + button{
+    font-size:20px ;
+}
+input [type="password"] {
+ color:greenyellow;
+}
+a [href=*"Google"] {
+    
+}
+button:hover {
+    background-color: red;
+    color:white;
+}
+a:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: green;
+}
+
+h2 ::first-letter{
+    font-size: 50px;
+}
+P{
+    
+}

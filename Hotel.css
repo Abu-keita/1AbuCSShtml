@@ -1,0 +1,88 @@
+html{
+    box-sizing: border-box;
+    font-family: 'open sans' "sans-serif";
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+align-items: center;
+justify-content: center;
+
+height:90vh;
+
+width: 500px;
+margin: auto;
+text-align: center;
+}
+#loginheader{
+    font-size: 30px;
+   
+   
+}
+.logintag{
+    margin-top: 40px;
+}
+.containeritems{
+     border: solid;
+    height: 400px;
+    background-color: white;
+    
+}
+input[type="Email"]{
+    width: 350px;
+    margin: 20px;
+    height: 30px;
+font-size: 15px;    
+}
+input[type="Password"]{
+    width: 350px;
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 15px; 
+   
+}
+input[type="checkbox"]{
+    
+}
+ #forgotpassword{
+     margin-left: 30px;
+     text-decoration: none;
+   
+ }
+.loginbutton{
+margin: 30px;
+border: solid 1px;
+width: 350px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#48aaff ;
+color: white;
+
+}
+.loginbutton{
+    
+}
+.newaccount{
+    font-size: 20px;
+}
+.newaccount a{
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+select {
+    position: relative;
+    left: 128px;
+    margin-top: 10px;
+   
+}
+#mainheader{
+    display: flex;
+ color: white;
+    
+}

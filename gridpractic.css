@@ -1,0 +1,387 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'open sans' sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+background-color: black;
+color: white;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+
+.brandtitle{
+    font-size: 1.5rem;
+    margin: .5rem;
+    color:white ;
+}
+
+
+.navlinksbar li a {
+   
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+}
+.navlinksbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+.navlinksbar{
+ margin: 0;
+ padding: 0;
+    display: flex;
+}
+.navlinksbar li{
+list-style: none;
+}
+
+.navlinksbar a:hover{
+    background-color: tomato;
+    transition: ease-in-out 200ms;
+}
+
+
+@media(max-width: 400px){
+    .toggle-button{
+        display: flex;
+    }
+    .navlinksbar{
+        display: none;
+    }
+}
+}
+body{
+   background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.Hotelheader{
+    display: flex;
+  
+   height: 30vh;
+    color: black;
+    margin-top:50PX;
+   
+
+   
+}
+.mainitemsfuture{
+margin: auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+
+}
+
+.mainitems{
+   font-size: 30px;
+ display: flex;
+ justify-content: center;
+border-top: 1px solid;
+border-bottom: solid 1px ;
+display: inline-block;
+
+}
+.mainitems2{
+    
+   
+    font-size: 50px;
+    font-weight: bold;
+   
+
+ 
+}
+@media(min-width:850px){
+    .contanieritems{
+        flex-direction: row;
+    }
+}
+
+
+  .buttontag   {
+    color: white;
+   
+  display: inline-block;
+border: solid 1px white;
+border-radius: 40px;
+margin-top: 15px;
+padding: 15px;
+background-color: tomato;
+justify-content: center;
+
+
+
+
+}
+
+.mainitemsfuture a  {
+    text-decoration: none;
+    font-weight: bold;
+       color: white;
+       
+
+       
+     
+}
+.buttontag:hover{
+    background-color: wheat;
+    transition: 300ms ease-in-out;
+    
+}
+.footer {
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 400px;
+  
+    height: 300px;
+    margin-top: 30PX;
+    text-transform: uppercase;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.footeritem1{
+    display:inline;
+    position: relative;
+    color: white;
+    margin: 10px  10px;
+    font-size: 20px;
+    
+}
+#footeritem3{
+color: white;
+margin: 20px;
+
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+border: solid 1px ;
+border-radius: 50px;
+
+}
+#footeritem3:hover{
+    background-color:wheat;
+    transition: 200ms ease-in-out;
+}
+
+input[type="date"]{
+    width: 300px;
+    height: 30px;
+   margin:20px;
+   
+}
+.discountcontanier{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content:center ;
+justify-content:center ;
+
+margin-top:100PX;
+
+width: 100%;
+
+
+    
+
+}
+.discountitems{
+    
+    background-color: #CDEDF6;
+  margin: 15px;
+border: solid whitesmoke;
+  padding: 30px;
+
+
+
+}
+.season{
+    font-size: 25px ;
+
+}
+.saveup{
+    font-size: 40px;
+    font-weight: bold;
+}
+.saveup2{
+    font-size: 30px ;
+}
+#discountbutton{
+    border: solid;
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+   align-items: center;
+}
+
+#discountbutton:hover{
+    background-color: wheat;
+    transition: ease-in-out 200ms;
+}
+.discountpic{
+   
+
+    border-radius: 10px;
+border: solid white;
+
+   justify-content: center;
+   align-items:center ;
+
+}
+.discountpic img{
+border-radius: 15px;
+}
+#discountbutton{
+    border: solid 1px white;
+    border-radius: 40px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: tomato;
+    color: white;
+}
+
+
+
+
+@media (min-width:900px){
+    .footer{
+        flex-direction: row;
+      width: 95%;
+      height: 200px;
+       
+    }
+
+}
+
+@media(min-width: 900px){
+  .discountcontanier{
+      flex-direction: row;
+      margin-top: 15px;
+      
+
+  }
+  .discountpic{
+    margin-left: 70px;
+  }
+  .discountitems{
+      width: 700px;
+  }
+        
+    }
+   
+    .imagecontanier{
+        display: flex;
+        flex-direction: column;
+margin-top: 20px;
+       
+justify-content: space-around;
+       align-items: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        
+        
+    }
+   
+.imagetag{
+    width:450px;
+    height: 600px;
+   border-radius: 10px;
+   margin-bottom: 20PX;
+   
+}
+@media(MIN-width: 900PX){
+    .imagecontanier{
+        
+        flex-direction:row;
+       
+    }
+}
+.mainfooter{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 200px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    
+}
+.mainfooter p{
+margin: 15px;
+}
+
